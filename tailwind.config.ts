@@ -66,17 +66,19 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Professional color palette for corporate appeal
+				// Professional orange and black color palette
 				corporate: {
-					navy: '#1a365d',
-					darkNavy: '#2c5282',
-					lightNavy: '#3182ce',
-					gold: '#d69e2e',
-					platinum: '#e2e8f0',
-					charcoal: '#2d3748',
-					slate: '#4a5568',
-					pearl: '#f7fafc',
-					silver: '#cbd5e0'
+					black: '#1a1a1a',
+					darkBlack: '#0d0d0d',
+					orange: '#ff6b35',
+					darkOrange: '#e55a2e',
+					lightOrange: '#ff8c69',
+					amber: '#ffa726',
+					cream: '#fef7f0',
+					lightGray: '#f5f5f5',
+					gray: '#6b7280',
+					darkGray: '#374151',
+					white: '#ffffff'
 				}
 			},
 			borderRadius: {

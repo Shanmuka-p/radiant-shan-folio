@@ -38,13 +38,13 @@ const Projects = () => {
   return (
     <section id="projects" className="bg-white py-24">
       <div className="max-w-7xl mx-auto px-8">
-        <h2 className="text-4xl font-semibold text-corporate-navy text-center mb-16">Projects</h2>
+        <h2 className="text-4xl font-semibold text-corporate-black text-center mb-16">Projects</h2>
         
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white rounded-3xl p-6 shadow-lg border border-corporate-silver hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-fade-in hover:border-corporate-gold"
+              className="bg-white rounded-3xl p-6 shadow-lg border border-gray-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-fade-in hover:border-corporate-orange"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <img
@@ -53,11 +53,11 @@ const Projects = () => {
                 className="w-full h-44 object-cover rounded-2xl mb-4"
               />
               
-              <h3 className="text-lg font-semibold text-corporate-navy mb-2">
+              <h3 className="text-lg font-semibold text-corporate-black mb-2">
                 {project.title}
               </h3>
               
-              <p className="text-sm text-corporate-slate mb-4 leading-relaxed">
+              <p className="text-sm text-corporate-gray mb-4 leading-relaxed">
                 {project.description}
               </p>
               
@@ -65,7 +65,7 @@ const Projects = () => {
                 {project.tech.map((tech, techIndex) => (
                   <span
                     key={techIndex}
-                    className="bg-corporate-platinum text-corporate-charcoal px-2 py-1 rounded-md text-xs font-medium"
+                    className="bg-corporate-cream text-corporate-darkGray px-2 py-1 rounded-md text-xs font-medium"
                   >
                     {tech}
                   </span>
@@ -76,7 +76,7 @@ const Projects = () => {
                 asChild
                 variant="outline"
                 size="sm"
-                className="w-full border-corporate-navy text-corporate-navy hover:bg-corporate-navy hover:text-white"
+                className="w-full border-corporate-black text-corporate-black hover:bg-corporate-orange hover:text-white hover:border-corporate-orange"
               >
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
                   <Github size={16} className="mr-2" />

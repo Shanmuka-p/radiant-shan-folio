@@ -98,9 +98,9 @@ const Contact = () => {
   const isFormValid = !Object.keys(errors).length && formData.name && formData.email && formData.message;
 
   return (
-    <section id="contact" className="bg-gray-50 py-24">
+    <section id="contact" className="bg-corporate-lightGray py-24">
       <div className="max-w-5xl mx-auto px-8">
-        <h2 className="text-4xl font-semibold text-gray-900 text-center mb-16">
+        <h2 className="text-4xl font-semibold text-corporate-black text-center mb-16">
           Get in Touch
         </h2>
         
@@ -109,34 +109,34 @@ const Contact = () => {
           <div className="animate-slide-in-left">
             <div className="space-y-6">
               <div className="flex items-center">
-                <Mail size={20} className="mr-4 text-blue-700" />
-                <span className="text-gray-700">shanmukareddypadala@gmail.com</span>
+                <Mail size={20} className="mr-4 text-corporate-orange" />
+                <span className="text-corporate-darkGray">shanmukareddypadala@gmail.com</span>
               </div>
               
               <div className="flex items-center">
-                <Phone size={20} className="mr-4 text-blue-700" />
-                <span className="text-gray-700">+91 62813 15915</span>
+                <Phone size={20} className="mr-4 text-corporate-orange" />
+                <span className="text-corporate-darkGray">+91 62813 15915</span>
               </div>
               
               <div className="flex items-center">
-                <Github size={20} className="mr-4 text-blue-700" />
+                <Github size={20} className="mr-4 text-corporate-orange" />
                 <a 
                   href="https://github.com/yourusername" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-blue-700 hover:underline"
+                  className="text-corporate-orange hover:underline"
                 >
                   github.com/yourusername
                 </a>
               </div>
               
               <div className="flex items-center">
-                <Linkedin size={20} className="mr-4 text-blue-700" />
+                <Linkedin size={20} className="mr-4 text-corporate-orange" />
                 <a 
                   href="https://linkedin.com/in/yourprofile" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-blue-700 hover:underline"
+                  className="text-corporate-orange hover:underline"
                 >
                   linkedin.com/in/yourprofile
                 </a>
@@ -149,7 +149,7 @@ const Contact = () => {
                 href="https://github.com/yourusername" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-blue-700 hover:scale-110 transition-all duration-200"
+                className="text-corporate-gray hover:text-corporate-orange hover:scale-110 transition-all duration-200"
               >
                 <Github size={24} />
               </a>
@@ -157,7 +157,7 @@ const Contact = () => {
                 href="https://linkedin.com/in/yourprofile" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-blue-700 hover:scale-110 transition-all duration-200"
+                className="text-corporate-gray hover:text-corporate-orange hover:scale-110 transition-all duration-200"
               >
                 <Linkedin size={24} />
               </a>
@@ -169,7 +169,7 @@ const Contact = () => {
             <form onSubmit={handleSubmit} className="bg-white p-8 rounded-2xl shadow-sm">
               <div className="space-y-6">
                 <div>
-                  <Label htmlFor="name" className="text-sm font-medium text-gray-700 mb-2 block">
+                  <Label htmlFor="name" className="text-sm font-medium text-corporate-darkGray mb-2 block">
                     Name
                   </Label>
                   <Input
@@ -180,7 +180,7 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleInputChange}
                     onBlur={handleBlur}
-                    className="w-full border-gray-300 rounded-lg p-3 focus:outline-none focus:border-blue-700 focus:ring-2 focus:ring-blue-700/20"
+                    className="w-full border-gray-300 rounded-lg p-3 focus:outline-none focus:border-corporate-orange focus:ring-2 focus:ring-corporate-orange/20"
                     required
                   />
                   {errors.name && (
@@ -191,7 +191,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <Label htmlFor="email" className="text-sm font-medium text-gray-700 mb-2 block">
+                  <Label htmlFor="email" className="text-sm font-medium text-corporate-darkGray mb-2 block">
                     Email
                   </Label>
                   <Input
@@ -202,7 +202,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleInputChange}
                     onBlur={handleBlur}
-                    className="w-full border-gray-300 rounded-lg p-3 focus:outline-none focus:border-blue-700 focus:ring-2 focus:ring-blue-700/20"
+                    className="w-full border-gray-300 rounded-lg p-3 focus:outline-none focus:border-corporate-orange focus:ring-2 focus:ring-corporate-orange/20"
                     required
                   />
                   {errors.email && (
@@ -213,7 +213,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <Label htmlFor="message" className="text-sm font-medium text-gray-700 mb-2 block">
+                  <Label htmlFor="message" className="text-sm font-medium text-corporate-darkGray mb-2 block">
                     Message
                   </Label>
                   <Textarea
@@ -224,7 +224,7 @@ const Contact = () => {
                     value={formData.message}
                     onChange={handleInputChange}
                     onBlur={handleBlur}
-                    className="w-full border-gray-300 rounded-lg p-3 focus:outline-none focus:border-blue-700 focus:ring-2 focus:ring-blue-700/20 resize-none"
+                    className="w-full border-gray-300 rounded-lg p-3 focus:outline-none focus:border-corporate-orange focus:ring-2 focus:ring-corporate-orange/20 resize-none"
                     required
                   />
                   {errors.message && (
@@ -237,7 +237,7 @@ const Contact = () => {
                 <Button
                   type="submit"
                   disabled={!isFormValid || isSubmitting}
-                  className="w-full bg-blue-700 hover:bg-blue-800 text-white py-3 rounded-xl text-base font-medium transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
+                  className="w-full bg-corporate-orange hover:bg-corporate-darkOrange text-white py-3 rounded-xl text-base font-medium transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
                 >
                   {isSubmitting ? 'Sending...' : 'Send Message'}
                 </Button>
