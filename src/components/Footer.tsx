@@ -8,13 +8,13 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-100 py-12">
+    <footer className="bg-corporate-navy py-12">
       <div className="max-w-6xl mx-auto px-8">
         {/* Footer Links */}
         <div className="flex justify-center space-x-6 mb-6">
           <button
             onClick={scrollToTop}
-            className="text-gray-600 hover:text-blue-700 hover:underline transition-colors font-medium"
+            className="text-corporate-platinum hover:text-corporate-gold hover:underline transition-colors font-medium"
           >
             Back to Top
           </button>
@@ -22,13 +22,13 @@ const Footer = () => {
             href="/Resume3.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-blue-700 hover:underline transition-colors font-medium"
+            className="text-corporate-platinum hover:text-corporate-gold hover:underline transition-colors font-medium"
           >
             Resume PDF
           </a>
           <a
             href="/privacy-policy.html"
-            className="text-gray-600 hover:text-blue-700 hover:underline transition-colors font-medium"
+            className="text-corporate-platinum hover:text-corporate-gold hover:underline transition-colors font-medium"
           >
             Privacy Policy
           </a>
@@ -40,7 +40,7 @@ const Footer = () => {
             href="https://github.com/yourusername"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-500 hover:text-blue-700 hover:scale-110 transition-all duration-200"
+            className="text-corporate-silver hover:text-corporate-gold hover:scale-110 transition-all duration-200"
           >
             <Github size={24} />
           </a>
@@ -48,14 +48,14 @@ const Footer = () => {
             href="https://linkedin.com/in/yourprofile"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-500 hover:text-blue-700 hover:scale-110 transition-all duration-200"
+            className="text-corporate-silver hover:text-corporate-gold hover:scale-110 transition-all duration-200"
           >
             <Linkedin size={24} />
           </a>
         </div>
 
         {/* Copyright */}
-        <p className="text-center text-sm text-gray-500">
+        <p className="text-center text-sm text-corporate-silver">
           © 2025 Padala Shanmuka Reddy. All rights reserved.
         </p>
       </div>

@@ -65,6 +65,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Professional color palette for corporate appeal
+				corporate: {
+					navy: '#1a365d',
+					darkNavy: '#2c5282',
+					lightNavy: '#3182ce',
+					gold: '#d69e2e',
+					platinum: '#e2e8f0',
+					charcoal: '#2d3748',
+					slate: '#4a5568',
+					pearl: '#f7fafc',
+					silver: '#cbd5e0'
 				}
 			},
 			borderRadius: {
