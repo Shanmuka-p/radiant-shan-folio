@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { Mail, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -14,10 +13,10 @@ const Hero = () => {
               Padala Shanmuka Reddy
             </h1>
             <h2 className="text-2xl lg:text-3xl font-medium text-corporate-darkGray mb-6">
-              Computer Science Engineering Student (2023 – 2027)
+              Full Stack Developer
             </h2>
             <p className="text-lg text-corporate-gray italic mb-8 max-w-xl leading-relaxed">
-              Aspiring Full-Stack Developer & Problem Solver
+              Result-oriented Computer Science undergraduate with strong expertise in backend development, distributed systems, and scalable SaaS architectures.
             </p>
             
             {/* Contact Info */}
@@ -48,9 +47,9 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-corporate-orange to-corporate-amber rounded-full blur-lg opacity-20"></div>
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+                src="/profile1.jpg"
                 alt="Profile picture of Padala Shanmuka Reddy"
-                className="relative w-64 h-64 rounded-full object-cover border-4 border-corporate-orange shadow-xl"
+                className="relative w-64 h-64 rounded-full object-cover border-4 border-corporate-orange shadow-xl animate-float"
               />
             </div>
           </div>

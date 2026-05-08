@@ -1,28 +1,27 @@
 
-import React from 'react';
-import { Trophy, Code, Calendar, Users } from 'lucide-react';
+import { Trophy, Code, Users } from 'lucide-react';
 
 const Achievements = () => {
   const achievements = [
     {
       icon: Code,
-      title: 'CodeChef Streak',
-      subtitle: '100+ days, 1000+ problems solved'
+      title: 'CodeChef: 1-Star Coder',
+      subtitle: 'Solved 1000+ problems, ranking in the top tier.'
     },
     {
-      icon: Calendar,
-      title: 'Campus Events',
-      subtitle: 'Managed multiple cultural & technical events'
+      icon: Code,
+      title: 'LeetCode',
+      subtitle: 'Solved 150+ problems (Graph & DP focus).'
     },
     {
       icon: Trophy,
-      title: 'Quizzes Participant',
-      subtitle: 'Participated in numerous tech quizzes'
+      title: 'HackerRank Badges',
+      subtitle: 'Earned 4-Star Badges in Java, SQL.'
     },
     {
       icon: Users,
       title: 'Team Collaboration',
-      subtitle: 'Cross-functional team projects & coordination'
+      subtitle: 'Cross-functional team projects & coordination.'
     }
   ];
 

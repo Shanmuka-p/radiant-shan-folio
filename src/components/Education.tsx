@@ -6,8 +6,8 @@ const Education = () => {
     {
       year: '2023 – 2027',
       degree: 'B.Tech in Computer Science Engineering',
-      institution: 'Aditya College of Engineering & Technology',
-      details: 'Currently pursuing; GPA: –'
+      institution: 'Aditya College of Engineering and Technology',
+      details: 'CGPA: 8.40 / 10.0'
     },
     {
       year: '2021 – 2023',
@@ -24,9 +24,11 @@ const Education = () => {
   ];
 
   const certifications = [
-    'NPTEL Java Certification',
-    'GeeksforGeeks CSS Certificate',
-    'GeeksforGeeks SQL Certificate'
+    'Programming in Java – NPTEL',
+    'Full Stack Development using Flutter – Technical Hub',
+    'MongoDB Associate Developer – MongoDB',
+    'API Fundamentals – Postman Student Expert',
+    'GITHUB – Github Foundations'
   ];
 
   return (

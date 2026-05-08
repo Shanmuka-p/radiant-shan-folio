@@ -6,33 +6,20 @@ import { Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'Spotify Replica',
-      description: 'A pixel-perfect clone of Spotify\'s UI using pure HTML & CSS.',
-      tech: ['HTML', 'CSS'],
-      link: 'https://github.com/yourusername/spotify-replica',
-      image: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=180&fit=crop'
+      title: 'Multi-Tenant SaaS Backend Platform',
+      description: 'Engineered a scalable multi-tenant architecture ensuring strict data isolation. Implemented RBAC and optimized database schemas for high concurrent request volumes.',
+      tech: ['Node.js', 'PostgreSQL', 'REST APIs', 'JWT'],
+      link: 'https://github.com/Shanmuka-p/Multi_Tenant_SaaS_23P31A05H8.git',
+      image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=300&h=180&fit=crop'
     },
     {
-      title: 'Responsive Calculator',
-      description: 'A fully responsive calculator app built with HTML, CSS, and JavaScript.',
-      tech: ['HTML', 'CSS', 'JavaScript'],
-      link: 'https://github.com/yourusername/calculator-app',
-      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=180&fit=crop'
+      title: 'Payment Gateway Integration Service',
+      description: 'Developed a secure payment processing microservice featuring webhook integrations and an asynchronous event-driven notification service using GCP Pub/Sub.',
+      tech: ['Node.js', 'GCP Pub/Sub', 'Webhooks'],
+      link: 'https://github.com/Shanmuka-p/PaymentGateway-23P31A05H8.git',
+      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=300&h=180&fit=crop'
     },
-    {
-      title: 'To-Do Application',
-      description: 'CRUD-enabled to-do list using local storage with interactive UI.',
-      tech: ['JavaScript', 'HTML', 'CSS'],
-      link: 'https://github.com/yourusername/todo-app',
-      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=180&fit=crop'
-    },
-    {
-      title: 'Rental Management System',
-      description: 'Full-stack property listing & booking system with ReactJS, Express, and MongoDB.',
-      tech: ['ReactJS', 'Bootstrap', 'ExpressJS', 'MongoDB', 'MySQL'],
-      link: 'https://github.com/yourusername/rental-management-system',
-      image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=300&h=180&fit=crop'
-    },
+
   ];
 
   return (

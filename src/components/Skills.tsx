@@ -1,26 +1,31 @@
 
-import React from 'react';
-import { Code, Database, Globe, Palette } from 'lucide-react';
+import { Code, Database, Globe } from 'lucide-react';
 
 const Skills = () => {
   const technicalSkills = [
     { name: 'Java', icon: Code },
-    { name: 'Python', icon: Code },
-    { name: 'C', icon: Code },
-    { name: 'HTML & CSS', icon: Globe },
     { name: 'JavaScript', icon: Code },
+    { name: 'Python', icon: Code },
+    { name: 'Dart', icon: Code },
+    { name: 'Node.js', icon: Globe },
+    { name: 'Express.js', icon: Globe },
     { name: 'ReactJS', icon: Code },
-    { name: 'Bootstrap', icon: Palette },
-    { name: 'MySQL', icon: Database },
+    { name: 'PostgreSQL', icon: Database },
     { name: 'MongoDB', icon: Database },
-    { name: 'ExpressJS', icon: Code },
+    { name: 'MySQL', icon: Database },
+    { name: 'GCP (Pub/Sub)', icon: Globe },
+    { name: 'Apache Kafka', icon: Globe },
+    { name: 'Firebase', icon: Globe },
   ];
 
   const softSkills = [
-    'Problem Solving (AI Tools)',
-    'Communication',
-    'Creativity',
-    'Project Management',
+    'Git/GitHub',
+    'Docker',
+    'VS Code',
+    'Postman',
+    'Microservices Architecture',
+    'CQRS',
+    'Problem Solving',
   ];
 
   return (
@@ -47,7 +52,7 @@ const Skills = () => {
 
           {/* Soft Skills */}
           <div className="animate-slide-in-right">
-            <h3 className="text-xl font-medium text-corporate-black mb-6">Soft Skills</h3>
+            <h3 className="text-xl font-medium text-corporate-black mb-6">Tools & Architecture</h3>
             <div className="flex flex-wrap gap-3">
               {softSkills.map((skill, index) => (
                 <div

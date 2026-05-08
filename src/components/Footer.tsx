@@ -37,7 +37,7 @@ const Footer = () => {
         {/* Social Icons */}
         <div className="flex justify-center space-x-4 mb-6">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/shanmukareddypadala"
             target="_blank"
             rel="noopener noreferrer"
             className="text-corporate-gray hover:text-corporate-orange hover:scale-110 transition-all duration-200"
@@ -64,3 +64,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

@@ -133,12 +133,12 @@ const Contact = () => {
               <div className="flex items-center">
                 <Linkedin size={20} className="mr-4 text-corporate-orange" />
                 <a 
-                  href="https://linkedin.com/in/yourprofile" 
+                  href="https://linkedin.com/in/shanmukareddypadala" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-corporate-orange hover:underline"
                 >
-                  linkedin.com/in/yourprofile
+                  linkedin.com/in/shanmukareddypadala
                 </a>
               </div>
             </div>
@@ -154,7 +154,7 @@ const Contact = () => {
                 <Github size={24} />
               </a>
               <a 
-                href="https://linkedin.com/in/yourprofile" 
+                href="https://linkedin.com/in/shanmukareddypadala" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-corporate-gray hover:text-corporate-orange hover:scale-110 transition-all duration-200"
