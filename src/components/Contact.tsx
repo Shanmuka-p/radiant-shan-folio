@@ -121,46 +121,26 @@ const Contact = () => {
               <div className="flex items-center">
                 <Github size={20} className="mr-4 text-corporate-orange" />
                 <a 
-                  href="https://github.com/yourusername" 
+                  href="https://github.com/Shanmuka-p" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-corporate-orange hover:underline"
                 >
-                  github.com/yourusername
+                  github.com/Shanmuka-p
                 </a>
               </div>
               
               <div className="flex items-center">
                 <Linkedin size={20} className="mr-4 text-corporate-orange" />
                 <a 
-                  href="https://linkedin.com/in/shanmukareddypadala" 
+                  href="https://www.linkedin.com/in/padala-shanmuka-reddy" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-corporate-orange hover:underline"
                 >
-                  linkedin.com/in/shanmukareddypadala
+                  linkedin.com/in/padala-shanmuka-reddy
                 </a>
               </div>
-            </div>
-            
-            {/* Social Icons */}
-            <div className="flex space-x-4 mt-8">
-              <a 
-                href="https://github.com/yourusername" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-corporate-gray hover:text-corporate-orange hover:scale-110 transition-all duration-200"
-              >
-                <Github size={24} />
-              </a>
-              <a 
-                href="https://linkedin.com/in/shanmukareddypadala" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-corporate-gray hover:text-corporate-orange hover:scale-110 transition-all duration-200"
-              >
-                <Linkedin size={24} />
-              </a>
             </div>
           </div>
 

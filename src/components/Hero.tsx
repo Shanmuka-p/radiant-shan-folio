@@ -36,7 +36,7 @@ const Hero = () => {
               asChild
               className="bg-corporate-orange hover:bg-corporate-darkOrange text-white px-6 py-3 rounded-xl text-base font-medium transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
             >
-              <a href="/Resume3.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/assets/React_Resume.pdf" target="_blank" rel="noopener noreferrer">
                 Download Résumé
               </a>
             </Button>

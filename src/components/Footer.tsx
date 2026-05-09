@@ -1,10 +1,9 @@
-
-import React from 'react';
-import { Github, Linkedin } from 'lucide-react';
+import React from "react";
+import { Github, Linkedin } from "lucide-react";
 
 const Footer = () => {
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -19,7 +18,7 @@ const Footer = () => {
             Back to Top
           </button>
           <a
-            href="/Resume3.pdf"
+            href="/assets/React_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-corporate-lightGray hover:text-corporate-orange hover:underline transition-colors font-medium"
@@ -37,7 +36,7 @@ const Footer = () => {
         {/* Social Icons */}
         <div className="flex justify-center space-x-4 mb-6">
           <a
-            href="https://github.com/shanmukareddypadala"
+            href="https://github.com/Shanmuka-p"
             target="_blank"
             rel="noopener noreferrer"
             className="text-corporate-gray hover:text-corporate-orange hover:scale-110 transition-all duration-200"
@@ -45,7 +44,7 @@ const Footer = () => {
             <Github size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/padala-shanmuka-reddy"
             target="_blank"
             rel="noopener noreferrer"
             className="text-corporate-gray hover:text-corporate-orange hover:scale-110 transition-all duration-200"
@@ -64,4 +63,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

@@ -11,7 +11,7 @@ const Achievements = () => {
     {
       icon: Code,
       title: 'LeetCode',
-      subtitle: 'Solved 150+ problems (Graph & DP focus).'
+      subtitle: 'Solved 150+ problems.'
     },
     {
       icon: Trophy,
